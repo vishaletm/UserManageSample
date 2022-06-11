@@ -11,6 +11,8 @@ namespace UMBusinessService
     public interface IUserManager
     {
         List<User> GetFemalesBelow25();
+        List<User> GetMaleAbove40();
+        User GetYoungestMale();
     }
     public class UserManager: IUserManager
     {
@@ -22,6 +24,14 @@ namespace UMBusinessService
         public List<User> GetFemalesBelow25()
         {
             return _userRepository.GetFemalesBelow25();
+        }
+        public List<User> GetMaleAbove40()
+        {
+            return _userRepository.GetMaleAbove40();
+        }
+        public User GetYoungestMale()
+        {
+            return _userRepository.GetYoungestMale();
         }
     }
 }

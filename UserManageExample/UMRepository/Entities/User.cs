@@ -13,7 +13,7 @@ namespace UMRepository.Entities
         public string LastName { get; set; }
         public int Age { get; set; }
         public string Gender { get; set; }
-        public List<Roles> Roles { get; set; }
+        //public List<Roles> Roles { get; set; }
 
     }
 }

@@ -37,17 +37,55 @@ namespace UserManageExample.Controller
         /// 
         [Route("api/GetFemalesBelow25")]
         [HttpGet]
-        public IEnumerable<User> GetFemalesBelow25()
+        public IActionResult GetFemalesBelow25()
         {
             try
             {
-                return _userManager.GetFemalesBelow25();
+                return Ok(_userManager.GetFemalesBelow25());
             }
             catch (Exception ex)
             {
                 //Log Here
 
-                return null;
+                return BadRequest(ex.Message);
+            }
+        }
+        /// <summary>
+        /// Get Male Above 40
+        /// </summary>
+        /// <returns></returns>
+        [Route("api/GetMaleAbove40")]
+        [HttpGet]
+        public IActionResult GetMaleAbove40()
+        {
+            try
+            {
+                return Ok(_userManager.GetMaleAbove40());
+            }
+            catch (Exception ex)
+            {
+                //Log Here
+
+                return BadRequest(ex.Message);
+            }
+        }
+        /// <summary>
+        /// Get Youngest Male
+        /// </summary>
+        /// <returns></returns>
+        [Route("api/GetYoungestMale")]
+        [HttpGet]
+        public IActionResult GetYoungestMale()
+        {
+            try
+            {
+                return Ok(_userManager.GetYoungestMale());
+            }
+            catch (Exception ex)
+            {
+                //Log Here
+
+                return BadRequest(ex.Message);
             }
         }
 
