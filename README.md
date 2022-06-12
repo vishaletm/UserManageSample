@@ -5,17 +5,17 @@
 ![UserManageSample workflow](https://github.com/vishaletm/UserManageSample/actions/workflows/dotnet.yml/badge.svg)
 
 For the ease of access   
-**Swagger**: API Documentation & Design Tool is implimented which will be the default landing page of the application
+**Swagger**: API Documentation & Design Tool is implemented which will be the default landing page of the application
 
-**Dependency injection** implimented
+**Dependency injection** implemented
 
 All the requirements are imlimented as **APIs**, urls are detailed below and the same can be accessed and easily tested using Swagger.
 
-Build Pipeline is implimented using [**Github Action**](https://github.com/vishaletm/UserManageSample/actions)
+Build Pipeline is implemented using [**Github Action**](https://github.com/vishaletm/UserManageSample/actions)
 
 Seed data is provided using Static Class **UserContext,** data can be altered there.
 
-3 Layers are implimented - 1. Repository, 2. Business, 3. UI/API Layer
+3 Layers are implemented - 1. Repository, 2. Business, 3. UI/API Layer
 
 1\. Provide the C# classes to modelize those users  
 2\. Given a list of users as input parameter, write the necessary classes/methods to be  
