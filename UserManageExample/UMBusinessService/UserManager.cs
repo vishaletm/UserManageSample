@@ -13,8 +13,9 @@ namespace UMBusinessService
         List<User> GetFemalesBelow25();
         List<User> GetMaleAbove40();
         User GetYoungestMale();
+        List<User> GetAllAdminManagerFemale();
     }
-    public class UserManager: IUserManager
+    public class UserManager : IUserManager
     {
         private IUserRepository _userRepository;
         public UserManager(IUserRepository userRepository)
@@ -32,6 +33,14 @@ namespace UMBusinessService
         public User GetYoungestMale()
         {
             return _userRepository.GetYoungestMale();
+        }
+        /// <summary>
+        /// Get all Female Users who is having Manager and Admin Roles
+        /// </summary>
+        /// <returns></returns>
+        public List<User> GetAllAdminManagerFemale()
+        {
+            return _userRepository.GetAllAdminManagerFemale();
         }
     }
 }

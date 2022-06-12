@@ -109,22 +109,22 @@ namespace UMRepository
                 if (UrId % 3 == 0) // Add Manager Role
                 {
                     UrId++;
-                    new Entities.UserRoles  // All Users are employees
+                    UserRoles.Add(new Entities.UserRoles  // All Users are employees
                     {
                         Id = UrId,
                         RoleId = 1,
                         UserId = u.Id
-                    };
+                    });
                 }
-                if (UrId % 4 == 0) // Add Admin Role
+                else if (UrId % 4 == 0) // Add Admin Role
                 {
                     UrId++;
-                    new Entities.UserRoles
+                    UserRoles.Add(new Entities.UserRoles
                     {
                         Id = UrId,
                         RoleId = 2,
                         UserId = u.Id
-                    };
+                    });
                 }
 
                 UrId++;

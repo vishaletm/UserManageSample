@@ -88,6 +88,15 @@ namespace UserManageExample.Controller
                 return BadRequest(ex.Message);
             }
         }
-
+        /// <summary>
+        /// Get all Admin + Manager Female
+        /// </summary>
+        /// <returns></returns>
+        [Route("api/GetAllAdminManagerFemale")]
+        [HttpGet]
+        public IActionResult GetAllAdminManagerFemale()
+        {
+            return Ok(_userManager.GetAllAdminManagerFemale());
+        }
     }
 }

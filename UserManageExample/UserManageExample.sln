@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManageExample", "UserManageExample\UserManageExample.csproj", "{693FFBCC-483F-47CF-816F-302242DBDF5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserManageExample", "UserManageExample\UserManageExample.csproj", "{693FFBCC-483F-47CF-816F-302242DBDF5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMBusinessService", "UMBusinessService\UMBusinessService.csproj", "{8BF1C25F-DA2D-4A23-AC17-16A782C9BFE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UMBusinessService", "UMBusinessService\UMBusinessService.csproj", "{8BF1C25F-DA2D-4A23-AC17-16A782C9BFE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMRepository", "UMRepository\UMRepository.csproj", "{3D341C7F-2D74-4441-876C-75BBFAB85E39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UMRepository", "UMRepository\UMRepository.csproj", "{3D341C7F-2D74-4441-876C-75BBFAB85E39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMCommon", "UMCommon\UMCommon.csproj", "{AAA3B960-ADDA-4E49-837D-876B5CC11AE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMTest", "UMTest\UMTest.csproj", "{6918D2FE-8AD3-4EA2-A6B0-3D7F340117F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{3D341C7F-2D74-4441-876C-75BBFAB85E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D341C7F-2D74-4441-876C-75BBFAB85E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D341C7F-2D74-4441-876C-75BBFAB85E39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAA3B960-ADDA-4E49-837D-876B5CC11AE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAA3B960-ADDA-4E49-837D-876B5CC11AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAA3B960-ADDA-4E49-837D-876B5CC11AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAA3B960-ADDA-4E49-837D-876B5CC11AE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6918D2FE-8AD3-4EA2-A6B0-3D7F340117F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6918D2FE-8AD3-4EA2-A6B0-3D7F340117F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6918D2FE-8AD3-4EA2-A6B0-3D7F340117F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6918D2FE-8AD3-4EA2-A6B0-3D7F340117F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
