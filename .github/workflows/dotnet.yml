@@ -27,7 +27,7 @@ jobs:
         dotnet restore
     - name: Test
       run: |
-        cd UMTest
+        cd UserManageExample/UMTest
         dotnet test --no-restore --verbosity normal  
     - name: Build
       run: |
