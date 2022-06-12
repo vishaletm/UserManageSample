@@ -4,6 +4,7 @@
 
 ![UserManageSample workflow](https://github.com/vishaletm/UserManageSample/actions/workflows/dotnet.yml/badge.svg)
 **Built with .Net 6**
+
 For the ease of access   
 **Swagger**: API Documentation & Design Tool is implemented which will be the default landing page of the application
 
