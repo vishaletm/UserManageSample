@@ -10,7 +10,7 @@ For the ease of access 
 
 **Dependency injection** implemented
 
-All the requirements are imlimented as **APIs**, urls are detailed below and the same can be accessed and easily tested using Swagger.
+All the requirements are implemented as **APIs**, urls are detailed below and the same can be accessed and easily tested using Swagger.
 
 Build Pipeline is implemented using [**Github Action**](https://github.com/vishaletm/UserManageSample/actions)
 
