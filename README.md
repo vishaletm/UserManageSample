@@ -17,6 +17,8 @@ Seed data is provided using Static Class **UserContext,** data can be altered t
 
 3 Layers are implimented - 1. Repository, 2. Business, 3. UI/API Layer
 
+![alt text](https://github.com/vishaletm/UserManageSample/raw/main/.github/Screenshot.PNG)
+
 1\. Provide the C# classes to modelize those users  
 2\. Given a list of users as input parameter, write the necessary classes/methods to be  
 able to:
