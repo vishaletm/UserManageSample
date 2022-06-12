@@ -67,7 +67,7 @@ namespace UMRepository
             Users.Add(new User { FirstName = "Isabel", LastName = "Christopher", Gender = "Female", Age = 45, Id = 28 });
             Users.Add(new User { FirstName = "Stella", LastName = "Mark", Gender = "Female", Age = 36, Id = 34 });
             Users.Add(new User { FirstName = "Debra", LastName = "Ron", Gender = "Female", Age = 34, Id = 25 });
-            Users.Add(new User { FirstName = "Beverly", LastName = "Craig", Gender = "Female", Age = 40, Id = 40 });
+            Users.Add(new User { FirstName = "Joverly", LastName = "Craig", Gender = "Female", Age = 40, Id = 40 });
             Users.Add(new User { FirstName = "Vera", LastName = "Philip", Gender = "Female", Age = 32, Id = 4 });
             Users.Add(new User { FirstName = "Angela", LastName = "Jimmy", Gender = "Female", Age = 36, Id = 49 });
             Users.Add(new User { FirstName = "Lucy", LastName = "Arthur", Gender = "Female", Age = 45, Id = 26 });

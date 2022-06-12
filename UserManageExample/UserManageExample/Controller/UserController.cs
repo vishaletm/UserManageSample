@@ -6,7 +6,7 @@ using UMRepository.Entities;
 
 namespace UserManageExample.Controller
 {
-    
+
     [ApiController]
     public class UserController : ControllerBase
     {
@@ -96,7 +96,55 @@ namespace UserManageExample.Controller
         [HttpGet]
         public IActionResult GetAllAdminManagerFemale()
         {
-            return Ok(_userManager.GetAllAdminManagerFemale());
+            try
+            {
+                return Ok(_userManager.GetAllAdminManagerFemale());
+            }
+            catch (Exception ex)
+            {
+                //Log Here
+
+                return BadRequest(ex.Message);
+            }
+        }
+        /// <summary>
+        /// Get Managers with First name start with Jo
+        /// </summary>
+        /// <returns></returns>
+        [Route("api/GetAllManagerNameStartWithJo")]
+        [HttpGet]
+        public IActionResult GetAllManagerNameStartWithJo()
+        {
+            try
+            {
+                return Ok(_userManager.GetAllManagersNameStartsJo());
+            }
+            catch (Exception ex)
+            {
+                //Log Here
+
+                return BadRequest(ex.Message);
+            }
+        }
+        /// <summary>
+        /// Export User Data
+        /// </summary>
+        /// <returns></returns>
+        [Route("api/ExportUserData")]
+        [HttpGet]
+        public IActionResult ExportUserData()
+        {
+            try
+            {
+
+                return Ok(_userManager.ExportUserData());
+            }
+            catch (Exception ex)
+            {
+                //Log Here
+
+                return BadRequest(ex.Message);
+            }
         }
     }
 }
